@@ -65,6 +65,14 @@ const NavBar = () => {
               <a href="#faq" className="mx-2 text-[20px] py-3">
                 FAQ
               </a>
+              <div className="flex flex-col items-center justify-center gap-1 border-t border-white w-full py-2 text-[20px]">
+                <Link to="/login">
+                  <button className="text-white mx-1">Login</button>
+                </Link>
+                <Link to="/register">
+                  <button className="text-white mx-1">Register</button>
+                </Link>
+              </div>
             </div>
           </div>
           {/* End of mobile nav  */}

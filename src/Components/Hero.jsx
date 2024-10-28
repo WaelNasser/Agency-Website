@@ -1,4 +1,5 @@
 /** @format */
+import { Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; // Import Autoplay module
@@ -24,11 +25,11 @@ const Hero = () => {
               <br />{" "}
               <span className="text-green-500 font-normal">for free cost</span>
             </h1>
-            <p className="text-md text-gray-400 my-2">
+            <p className="text-md text-gray-400 my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               inventore tenetur hic.
             </p>
-            <button className="py-2 px-4 bg-green-500 hover:bg-gray-500 text-white my-3 rounded-[5px]  hover:transform hover:-translate-y-[4px] transition-all duration-300 ease-in-out">Register</button>
+            <Link to="/register" className="py-2 px-4 bg-green-500 hover:bg-gray-500 text-white my-3 rounded-[5px]  hover:transform hover:-translate-y-[4px] transition-all duration-300 ease-in-out">Register</Link>
           </div>
           <div className="basis-1/2 flex justify-end items-center">
             <img src={hero1} alt="hero1" width={600} height={400} />
@@ -41,13 +42,12 @@ const Hero = () => {
               <br />
               <span className="text-green-500 font-normal">in 4 months</span>
             </h1>
-            <p className="text-md text-gray-400 my-2">
+            <p className="text-md text-gray-400 my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               inventore tenetur hic.
             </p>
-            <button className="bg-green-500 text-white text-md rounded-[5px] my-2 py-2 px-4">
-              Register
-            </button>
+                        <Link to="/register" className="py-2 px-4 bg-green-500 hover:bg-gray-500 text-white my-3 rounded-[5px]  hover:transform hover:-translate-y-[4px] transition-all duration-300 ease-in-out">Register</Link>
+
           </div>
           <div className="basis-1/2 flex justify-end items-center">
             <img src={hero2} alt="hero2" width={600} height={400} />
@@ -60,13 +60,12 @@ const Hero = () => {
               <br />{" "}
               <span className="text-green-500 font-normal">for free cost</span>
             </h1>
-            <p className="text-md text-gray-400 my-2">
+            <p className="text-md text-gray-400 my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               inventore tenetur hic.
             </p>
-            <button className="bg-green-500 text-white text-md rounded-[5px] my-2 py-2 px-4">
-              Register
-            </button>
+                        <Link to="/register" className="py-2 px-4 bg-green-500 hover:bg-gray-500 text-white my-3 rounded-[5px]  hover:transform hover:-translate-y-[4px] transition-all duration-300 ease-in-out">Register</Link>
+
           </div>
           <div className="basis-1/2 flex justify-end items-center">
             <img src={hero3} alt="hero3" width={600} height={400} />
